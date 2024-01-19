@@ -1,0 +1,32 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="20" height="20" fill="#E5E5E5"/>
+<g id="Frame 1">
+<rect width="2063" height="1127" transform="translate(-1362 -180)" fill="#FEBB41"/>
+<g id="Foo Landing Page">
+<rect x="-1172" y="-59" width="1511" height="886" rx="24" fill="url(#paint0_linear_0_1)"/>
+<g id="Group 1">
+<g id="Rectangle 7" filter="url(#filter0_d_0_1)">
+<rect x="-40" y="-20" width="314" height="60" rx="30" fill="#FFF9F0" fill-opacity="0.1" shape-rendering="crispEdges"/>
+</g>
+</g>
+<path id="Vector" d="M19 19L14.65 14.65M17 9C17 13.4183 13.4183 17 9 17C4.58172 17 1 13.4183 1 9C1 4.58172 4.58172 1 9 1C13.4183 1 17 4.58172 17 9Z" stroke="#909090" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_0_1" x="-64" y="-32" width="362" height="108" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="16" operator="erode" in="SourceAlpha" result="effect1_dropShadow_0_1"/>
+<feOffset dy="12"/>
+<feGaussianBlur stdDeviation="20"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_0_1" x1="-618.366" y1="401.594" x2="-1565.84" y2="-712.072" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F4ECE1"/>
+<stop offset="1" stop-color="#FCFBF7"/>
+</linearGradient>
+</defs>
+</svg>
