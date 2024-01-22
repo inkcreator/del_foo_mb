@@ -29,41 +29,31 @@ h1 {
   line-height: 94.8%; /* 118.5px */
   letter-spacing: -4.375px;
   margin-left: 0px;
-  margin-top: 150px;
+  margin-top: 172px;
   width: 261px;
   height: 119px;
+}
 
-  margin-top: 250px;
-}
-h2 {
-  color: #2f2f2f;
-  font-size: 52px;
+p1 {
+  position: absolute;
+  color: #909090;
+  width: 568px;
+  height: 62px;
+  font-size: 22px;
   font-style: normal;
-  font-weight: 700;
-  line-height: 94.8%; /* 49.296px */
-  max-width: 200px;
-  position: relative;
-  margin-top: 250px;
-}
-h3 {
-  color: #2f2f2f;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 139.8%; /* 25.164px */
-  margin-left: 185px;
-  margin-top: 250px;
+  margin-top: 60px;
 }
-h4 {
+p2 {
   color: #909090;
   font-size: 18px;
   font-style: normal;
   font-weight: 300;
   line-height: 139.8%;
-  margin-top: 250px;
 }
 p {
-  position: flex;
+  position: relative;
   color: #2f2f2f;
   width: 221px;
   height: 98px;
@@ -71,6 +61,15 @@ p {
   font-style: normal;
   font-weight: 700;
   line-height: 94.8%; /* 49.296px */
+  margin-top: 185px;
+}
+h2 {
+  color: #2f2f2f;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 139.8%; /* 25.164px */
+  margin-top: -140px;
 }
 header {
   display: inline-block;
@@ -174,14 +173,15 @@ input::placeholder {
   flex-shrink: 0;
   padding: 20px 10px;
   border-radius: 84px;
-  margin-top: 250px;
+  margin-top: 180px;
 }
 .play {
   width: 57px;
   height: 57px;
   flex-shrink: 0;
   position: absolute;
-  margin-top: 250px;
+  margin-top: 180px;
+  margin-left: 250px;
 }
 .watching {
   color: #2f2f2f;
@@ -190,18 +190,28 @@ input::placeholder {
   font-style: normal;
   font-weight: 600;
   line-height: 94.8%; /* 18.96px */
-  margin-top: 250px;
+  margin-top: 200px;
+  margin-left: 340px;
 }
 .star {
   color: #febb41;
   width: 28px;
   height: 28px;
   flex-shrink: 0;
+  display: inline-flex;
   position: absolute;
-  margin-top: 250px;
+  margin-top: -180px;
 }
 
 .cointeiner {
   display: block;
   position: relative;
+}
+.eda {
+  width: 750px;
+  height: 712px;
+  flex-shrink: 0;
+  position: relative;
+  margin-left: 750px;
+  margin-top: -200px;
 }
