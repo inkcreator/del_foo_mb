@@ -1,14 +1,28 @@
 body {
   background-color: #febb41;
+  font-family: Poppins;
 }
 button {
   border: none;
   background: none;
   cursor: pointer;
 }
+li {
+  display: inline-block;
+}
+a {
+  color: #000;
+  text-decoration: none;
+  display: inline-block;
+  color: #000;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 94.8%; /* 20.856px */
+}
 h1 {
   color: #ff7e00;
-  font-family: Poppins;
+  display: flex;
   font-size: 125px;
   font-style: normal;
   font-weight: 700;
@@ -18,57 +32,54 @@ h1 {
   margin-top: 150px;
   width: 261px;
   height: 119px;
-  margin-bottom: 524;
-  margin-right: 1163;
+
+  margin-top: 250px;
 }
 h2 {
   color: #2f2f2f;
-  font-family: Poppins;
   font-size: 52px;
   font-style: normal;
   font-weight: 700;
   line-height: 94.8%; /* 49.296px */
   max-width: 200px;
-  margin-top: 160px;
-  margin-bottom: 800px;
-  margin-left: 0px;
-  margin-right: 924px;
+  position: relative;
+  margin-top: 250px;
 }
 h3 {
   color: #2f2f2f;
-
-  font-family: Poppins;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: 139.8%; /* 25.164px */
   margin-left: 185px;
+  margin-top: 250px;
 }
 h4 {
   color: #909090;
-  font-family: Poppins;
   font-size: 18px;
   font-style: normal;
   font-weight: 300;
   line-height: 139.8%;
-  margin-left: 185px;
-  margin-top: -15px;
+  margin-top: 250px;
 }
 p {
-  display: flex;
-  width: 568px;
-  color: #909090;
-  font-family: Poppins;
-  font-size: 22px;
+  position: flex;
+  color: #2f2f2f;
+  width: 221px;
+  height: 98px;
+  font-size: 52px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 138.8%; /* 30.536px */
+  font-weight: 700;
+  line-height: 94.8%; /* 49.296px */
 }
 header {
   display: inline-block;
 }
+input::placeholder {
+  color: #000;
+}
 .texter {
-  display: -webkit-box;
+  display: flex;
   height: 260px;
 }
 .wrapper {
@@ -76,13 +87,14 @@ header {
   height: 886px;
   border-radius: 24px;
   background: linear-gradient(305deg, #f4ece1 57.1%, #fcfbf7 145.5%);
-  margin: auto;
-  padding: 48px 87px;
   display: block;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 48px 87px;
 }
 .foo {
   color: #000;
-  font-family: Poppins;
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
@@ -92,17 +104,8 @@ header {
 .nav {
   display: inline-block;
   list-style-type: none;
-  margin-left: 300px;
   word-spacing: 30px;
-}
-.elem {
-  display: inline-block;
-  color: #000;
-  font-family: Poppins;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 94.8%; /* 20.856px */
+  margin-left: 300px;
 }
 
 .search1 {
@@ -110,28 +113,36 @@ header {
   border-radius: 30px;
   background: rgba(255, 249, 240, 0.1);
   box-shadow: 0px 12px 40px -16px rgba(0, 0, 0, 0.1);
-  margin-left: 300px;
+  margin-left: 305px;
+  word-spacing: 10px;
+  margin-top: 5px;
 }
 
 .search2 {
   color: #000;
-
   font-family: Poppins;
   font-size: 22px;
+  height: 3em;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 94.8%; /* 20.856px */
+  background: rgba(255, 249, 240, 0.1);
+  border: none;
+  outline: none;
 }
 
 .cart {
   display: inline-block;
   position: relative;
-  margin-left: 150px;
+  margin-left: 0px;
+  border-left: thick solid rgba(148, 140, 140, 0.31);
+  border-left-width: 1px;
+  padding-left: 10px;
+  margin-top: 15px;
 }
 
 .dva {
   color: white;
-  font-family: Poppins;
   font-style: normal;
   font-weight: 40px;
   line-height: 94.8%; /* 9.48px */
@@ -146,60 +157,51 @@ header {
   align-items: center;
   justify-content: center;
   display: flex;
-  margin-left: 17px;
-}
-.eda {
-  margin-left: 496px;
-  margin-top: -650px;
-  width: 750px;
-  height: 712px;
-  flex-shrink: 0;
   position: relative;
-  left: 260px;
-  top: 286px;
+  margin-left: 17px;
 }
 .order {
   color: #f4ece1;
-  font-family: Poppins;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
   line-height: 94.8%; /* 18.96px */
-  position: relative;
+  position: absolute;
   background-color: #2f2f2f;
   box-shadow: 0px 20px 32px -8px rgba(0, 0, 0, 0.2);
-  top: 40px;
-  left: 0px;
   width: 198px;
   height: 70px;
   flex-shrink: 0;
   padding: 20px 10px;
   border-radius: 84px;
+  margin-top: 250px;
 }
 .play {
   width: 57px;
   height: 57px;
   flex-shrink: 0;
-  margin-left: 230px;
-  margin-top: -20px;
+  position: absolute;
+  margin-top: 250px;
 }
 .watching {
   color: #2f2f2f;
-  display: flex;
-  font-family: Poppins;
+  position: absolute;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
   line-height: 94.8%; /* 18.96px */
-  margin-left: 310px;
-  margin-top: -100px;
+  margin-top: 250px;
 }
 .star {
   color: #febb41;
   width: 28px;
   height: 28px;
   flex-shrink: 0;
-  display: flex;
-  margin-top: -300px;
-  margin-left: 185px;
+  position: absolute;
+  margin-top: 250px;
+}
+
+.cointeiner {
+  display: block;
+  position: relative;
 }
