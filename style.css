@@ -18,7 +18,7 @@ a {
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
-  line-height: 94.8%; /* 20.856px */
+  line-height: 20.856px;
 }
 h1 {
   color: #ff7e00;
@@ -26,7 +26,7 @@ h1 {
   font-size: 125px;
   font-style: normal;
   font-weight: 700;
-  line-height: 94.8%; /* 118.5px */
+  line-height: 118.5px;
   letter-spacing: -4.375px;
   margin-left: 0px;
   margin-top: 172px;
@@ -42,7 +42,7 @@ p1 {
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
-  line-height: 139.8%; /* 25.164px */
+  line-height: 25.164px;
   margin-top: 60px;
 }
 p2 {
@@ -60,7 +60,7 @@ p {
   font-size: 52px;
   font-style: normal;
   font-weight: 700;
-  line-height: 94.8%; /* 49.296px */
+  line-height: 49.296px;
   margin-top: 185px;
 }
 h2 {
@@ -68,7 +68,7 @@ h2 {
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
-  line-height: 139.8%; /* 25.164px */
+  line-height: 25.164px;
   margin-top: -140px;
 }
 header {
@@ -97,7 +97,7 @@ input::placeholder {
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
-  line-height: 139.8%; /* 44.736px */
+  line-height: 44.736px;
   background: none;
 }
 .nav {
@@ -124,7 +124,7 @@ input::placeholder {
   height: 3em;
   font-style: normal;
   font-weight: 500;
-  line-height: 94.8%; /* 20.856px */
+  line-height: 20.856px;
   background: rgba(255, 249, 240, 0.1);
   border: none;
   outline: none;
@@ -144,7 +144,7 @@ input::placeholder {
   color: white;
   font-style: normal;
   font-weight: 40px;
-  line-height: 94.8%; /* 9.48px */
+  line-height: 9.48px;
   background-color: red;
   filter: drop-shadow(0px 2px 23px rgba(255, 51, 52, 0.72));
   font-size: xx-small;
@@ -164,7 +164,7 @@ input::placeholder {
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
-  line-height: 94.8%; /* 18.96px */
+  line-height: 18.96px;
   position: absolute;
   background-color: #2f2f2f;
   box-shadow: 0px 20px 32px -8px rgba(0, 0, 0, 0.2);
@@ -189,7 +189,7 @@ input::placeholder {
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
-  line-height: 94.8%; /* 18.96px */
+  line-height: 18.96px;
   margin-top: 200px;
   margin-left: 340px;
 }
