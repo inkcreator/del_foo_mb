@@ -33,18 +33,6 @@ h1 {
   height: 11%;
 }
 
-p1 {
-  display: inline-block;
-  position: absolute;
-  color: #909090;
-  width: 568px;
-  height: 62px;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 25.164px;
-  margin-top: -60px;
-}
 p2 {
   color: #909090;
   font-size: 18px;
@@ -53,7 +41,7 @@ p2 {
   line-height: 139.8%;
 }
 p {
-  display: inline-block;
+  display: block;
   color: #2f2f2f;
   width: 11.5%;
   height: 9%;
@@ -61,7 +49,8 @@ p {
   font-style: normal;
   font-weight: 700;
   line-height: 49.296px;
-  margin-left: 50px;
+  margin-left: 255px;
+  margin-top: -190px;
 }
 h2 {
   color: #2f2f2f;
@@ -79,6 +68,18 @@ input::placeholder {
 }
 .texter {
   display: block;
+  padding-right: 5px;
+}
+.texter1 {
+  display: block;
+  color: #909090;
+  width: 568px;
+  height: 62px;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.164px;
+  margin-top: -20px;
 }
 .wrapper {
   max-width: 1511px;
@@ -99,6 +100,7 @@ input::placeholder {
   font-weight: 600;
   line-height: 44.736px;
   background: none;
+  border-color: none;
 }
 .nav {
   display: inline-block;
@@ -194,25 +196,23 @@ input::placeholder {
   margin-top: -43px;
   margin-left: 300px;
 }
+.eda {
+  display: flex;
+  position: absolute;
+  height: 712px;
+  flex-shrink: 0;
+  max-width: 750px;
+}
 
 .cointeiner {
   display: block;
   position: relative;
 }
-.eda {
-  display: block;
-  width: 750px;
-  height: 712px;
-  flex-shrink: 0;
-  margin-left: 50%;
-  margin-top: -440px;
-  max-width: 750px;
-}
 
 .rating-area {
+  display: block;
   position: absolute;
   overflow: hidden;
-  margin-top: -60px;
 }
 .rating-area:not(:checked) > input {
   display: none;
@@ -250,44 +250,71 @@ input::placeholder {
   position: relative;
 }
 
-@media (max-width: 1680px) {
+@media screen and (min-width: 1600px) and (max-width: 3720px) {
   .nav {
     margin-left: 10vw;
+    word-spacing: 30px;
   }
   .eda {
-    margin-left: 39%;
+    margin-left: 36%;
+    margin-top: -430px;
   }
   .search1 {
-    margin-left: 5vw;
+    margin-left: 15vw;
+  }
+  .p {
+    margin-left: 50px;
+  }
+  .rating-info {
+    margin-left: 0%;
+    margin-top: 18%;
+  }
+  .rating-area {
+    margin-left: 0%;
+    margin-top: -2.5%;
   }
 }
 
-@media (max-width: 1440px) {
+@media screen and (min-width: 1371px) and (max-width: 1599px) {
   .nav {
     margin-left: 5vw;
+    word-spacing: 15px;
   }
   .search1 {
-    margin-left: 5vw;
+    margin-left: 15vw;
   }
   .eda {
-    display: none;
+    margin-left: 29%;
+    margin-top: -430px;
   }
   .rating-info {
-    margin-top: 500px;
-    margin-left: 43%;
+    margin-left: 0%;
+    margin-top: 20%;
   }
   .rating-area {
-    margin-left: 33%;
+    margin-left: 0%;
+    margin-top: -3%;
   }
 }
-@media (max-width: 920px) {
+@media screen and (min-width: 800px) and (max-width: 1370px) {
   .wrapper {
     max-width: 70%;
   }
   .nav {
     display: none;
   }
-  .texter {
-    word-spacing: 20px;
+  .eda {
+    display: none;
+  }
+  .rating-info {
+    margin-left: 0%;
+    margin-top: 30%;
+  }
+  .rating-area {
+    margin-left: 0%;
+    margin-top: -4%;
+  }
+  .search1 {
+    margin-left: 17vw;
   }
 }
