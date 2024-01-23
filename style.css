@@ -193,15 +193,6 @@ input::placeholder {
   margin-top: 200px;
   margin-left: 340px;
 }
-.star {
-  color: #febb41;
-  width: 28px;
-  height: 28px;
-  flex-shrink: 0;
-  display: inline-flex;
-  position: absolute;
-  margin-top: -180px;
-}
 
 .cointeiner {
   display: block;
@@ -214,4 +205,45 @@ input::placeholder {
   position: relative;
   margin-left: 750px;
   margin-top: -200px;
+}
+
+.rating-area {
+  position: absolute;
+  overflow: hidden;
+  margin-top: -60px;
+}
+.rating-area:not(:checked) > input {
+  display: none;
+}
+.rating-area:not(:checked) > label {
+  float: right;
+  width: 32px;
+  padding: 0;
+  cursor: pointer;
+  font-size: 35px;
+  line-height: 32px;
+  color: lightgrey;
+  text-shadow: 1px 1px #bbb;
+}
+.rating-area:not(:checked) > label:before {
+  content: "★";
+}
+.rating-area > input:checked ~ label {
+  color: gold;
+  text-shadow: 1px 1px #c60;
+}
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+  color: gold;
+}
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+  color: gold;
+  text-shadow: 1px 1px goldenrod;
+}
+.rate-area > label:active {
+  position: relative;
 }
