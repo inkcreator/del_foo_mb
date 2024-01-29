@@ -1,13 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <title>Delivery Food</title>
   </head>
   <body>
-    <div><h1>1111</h1></div>
-    <div><h1>1111</h1></div>
-    <div><h1>1111</h1></div>
+    <div class="wrapper">
+      <header>
+        <img class="shlyapa" src="./svg/chef-hat.svg" alt="logo" />
+        <a class="foo" href="#">Foo</a>
+          <select name="palki" id="palki">
+            <option class="dropdown" value="palochki">&equiv;</option>
+            <option class="dropdown" value="home">Home</option>
+            <option class="dropdown" value="menu">Menu</option>
+            <option class="dropdown" value="contact">Contact</option>
+            <option class="dropdown" value="shop">Shop</option>
+           </select>
+
+        <ul class="nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Shop</a></li>
+        </ul>
+
+        <div class="search1">
+          <label for="1"><img src="./svg/Vector.svg" alt="lupa" /></label>
+          <input class="search2" type="search" placeholder="Search" id="1" />
+          <div class="cart">
+            <div class="dva">2</div>
+            <img src="./svg/Shopping cart.svg" alt="cart" />
+          </div>
+        </div>
+      </header>
+      <div class="conteiner">
+        <div class="texter">
+          <h1>Fast</h1>
+          <p>Food <br/> Delivery</p>
+        </div>
+        <div class="texter1">
+          <p1>
+            Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium
+            doloremque laudantium
+          </p1>
+        </div>
+        <button class="order">Order Now</button>
+        <div class="play">
+          <button><img src="./svg/play.svg" /></button>
+        </div>
+        <button class="watching">Watch Video</button>
+      </div>
+      <div class="eda"><img src="./png/eda.png" /></div>
+      <div>
+        <div class="rating-area">
+          <input type="radio" id="star-1" name="rating" value="1" />
+          <label for="star-1" title="Оценка «1»"></label>
+          <input type="radio" id="star-2" name="rating" value="2" />
+          <label for="star-2" title="Оценка «2»"></label>
+          <input type="radio" id="star-3" name="rating" value="3" />
+          <label for="star-3" title="Оценка «3»"></label>
+          <input type="radio" id="star-4" name="rating" value="4" />
+          <label for="star-4" title="Оценка «4»"></label>
+          <input type="radio" id="star-5" name="rating" value="5" />
+          <label for="star-5" title="Оценка «5»"></label>
+        </div>
+        <div class="rating-info">
+          <h2>5 star rating</h2>
+          <p2>based on 1788 reviews</p2>
+        </div>
+    </div>
   </body>
 </html>
